@@ -8,8 +8,7 @@ on:
 
 jobs:
   runs-on: ubuntu-latest 
-  container:
-    image: python: 3.9-slim
+  container: python: 3.9-slim
 
   steps:
    - name: Checkout
